@@ -1,0 +1,184 @@
+name: harrys_beach_bistro
+description: A new Flutter project.
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.1 <3.0.0"
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+  animated_splash_screen: ^1.3.0
+  flutter_svg: ^0.22.0
+  tutorial_coach_mark:
+  otp_text_field: ^1.1.3
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  flutter_launcher_icons: ^0.10.0
+  dio: ^4.0.6
+  get_storage: 
+  get:
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "lib/assets/images/logo/H2.jpg"
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+# The following section is specific to Flutter packages.
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: Montserrat-Bold
+      fonts:
+        - asset: lib/assets/fonts/Montserrat/Montserrat-Bold.ttf
+
+    - family: Montserrat-Regular
+      fonts:
+        - asset: lib/assets/fonts/Montserrat/Montserrat-Regular.ttf
+
+    - family: Montserrat
+      fonts:
+        - asset: lib/assets/fonts/Montserrat/Montserrat-Regular.ttf
+
+    - family: Montserrat-Light
+      fonts:
+        - asset: lib/assets/fonts/Montserrat/Montserrat-Light.ttf
+
+    - family: Montserrat-Medium
+      fonts:
+        - asset: lib/assets/fonts/Montserrat/Montserrat-Medium.ttf
+
+    - family: Open_Sans
+      fonts:
+        - asset: lib/assets/fonts/Open_Sans/OpenSans-Bold.ttf
+        - asset: lib/assets/fonts/Open_Sans/OpenSans-Light.ttf
+        - asset: lib/assets/fonts/Open_Sans/OpenSans-Regular.ttf
+
+  assets:
+    - lib/assets/
+    - lib/assets/images/gif/verify.gif
+
+    - lib/assets/images/gif/Waiting.gif
+
+    - lib/assets/Gnocchi-Prawns-Chorizo.jpg
+    - lib/assets/Margherita.jpg
+    - lib/assets/Aussie.jpg
+    - lib/assets/Mongelia.jpg
+    - lib/assets/Penne-Arrabiata.jpg
+    - lib/assets/Spaghetti-Bolognese.jpg
+    - lib/assets/Spaghetti-Marinara.jpg
+
+    - lib/assets/Chilli-Sea.jpg
+    - lib/assets/Prawn-Tail.jpg
+    - lib/assets/Slammer.jpg
+
+    - lib/assets/images/gif/create_menu.gif
+    - lib/assets/images/logo/Logo_Full.png
+    - lib/assets/images/logo/H2.png
+    - lib/assets/images/logo/H2.jpg
+    - lib/assets/images/onboarding/onboarding1.png
+    - lib/assets/images/onboarding/onboarding2.png
+    - lib/assets/images/onboarding/onboarding3.png
+    - lib/assets/images/onboarding/onboarding4.png
+    - lib/assets/images/onboarding/onboarding5.png
+    - lib/assets/images/signin/signin1.png
+    - lib/assets/images/signin/signin2.png
+    - lib/assets/images/signin/signin3.png
+    - lib/assets/images/signin/signin4.png
+    - lib/assets/images/signin/signin5.png
+    - lib/assets/images/signin/Or.png
+    - lib/assets/images/signin/prt1.png
+    - lib/assets/images/signin/prt2.jpg
+    - lib/assets/images/signin/prt3.jpg
+    - lib/assets/images/signin/prt4.png
+    - lib/assets/images/signin/prtSplashLogo.png
+    - lib/assets/images/ReferEarn/Refer_earn.png
+    - lib/assets/images/ReferEarn/refer_earn_back.png
+    - lib/assets/images/veg_non_veg/nonveg.png
+    - lib/assets/images/veg_non_veg/veg.png
+    - lib/assets/images/veg_non_veg/egg.png
+    - lib/assets/images/open_close_icon/open.png
+    - lib/assets/images/open_close_icon/close.png
+    - lib/assets/images/Icon_img/location.png
+    - lib/assets/images/Icon_img/serve.png
+    - lib/assets/images/Icon_img/locate.png
+    - lib/assets/images/vectors/check_sign.png
+    - lib/assets/images/vectors/locate.png
+    - lib/assets/images/vectors/call.png
+    - lib/assets/images/vectors/sms.png
+    - lib/assets/images/vectors/closed.png
+    - lib/assets/images/vectors/3stepLogo.png
+    - lib/assets/images/vectors/prtLogo.png
+    - lib/assets/images/vectors/Usplash.png
+    - lib/assets/images/vectors/staffSplash.png
+    - lib/assets/images/vectors/discoverimg.png
+    - lib/assets/images/vectors/discoverimg1.png
+    - lib/assets/images/vectors/Entry.png
+    - lib/assets/images/vectors/kitchen.png
+    - lib/assets/images/vectors/table.png
+    - lib/assets/images/vectors/active_table.png
+    - lib/assets/images/vectors/menu.png
+    - lib/assets/images/vectors/insights.png
+    - lib/assets/images/vectors/horn.png
+    - lib/assets/images/vectors/rating_star.png
+    - lib/assets/images/vectors/calender_img.png
+    - lib/assets/images/vectors/hotel_img.png
+    - lib/assets/images/vectors/staff_img.png
+    - lib/assets/images/vectors/relavance.png
+    - lib/assets/images/vectors/uff.png
+    - lib/assets/images/vectors/filter.png
+    - lib/assets/images/tables/T1.png
+    - lib/assets/images/tables/T2.png
+    - lib/assets/images/tables/T4.png
+    - lib/assets/images/tables/T6.png
+    - lib/assets/images/tables/T8.png
+    - lib/assets/animation/Waiting.mp4
+    - lib/assets/images/taste_pre_images/default.jpg
+    - lib/assets/images/taste_pre_images/default (1).jpg
+    - lib/assets/images/taste_pre_images/default (2).jpg
+    - lib/assets/images/taste_pre_images/default (3).jpg
+    - lib/assets/images/taste_pre_images/default (4).jpg
+    - lib/assets/images/taste_pre_images/default (5).jpg
+    - lib/assets/images/taste_pre_images/default (6).jpg
+    - lib/assets/images/taste_pre_images/default (7).jpg
+    - lib/assets/images/taste_pre_images/default (8).jpg
+    - lib/assets/images/taste_pre_images/default (9).jpg
+    - lib/assets/images/taste_pre_images/default (10).jpg
+    - lib/assets/images/taste_pre_images/default (11).jpg
